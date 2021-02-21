@@ -1,0 +1,12 @@
+li{
+    list-style-type: none;
+    position: relative;
+}
+li::before{
+    content:"\A";
+    border-style: solid;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent purple transparent transparent;
+    position: absolute;
+    left: -15px;
+}
