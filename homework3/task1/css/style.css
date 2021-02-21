@@ -9,5 +9,4 @@ li::before{
     border-color: transparent purple transparent transparent;
     position: absolute;
     left: -15px;
-    
 }
