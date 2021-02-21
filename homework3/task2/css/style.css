@@ -1,0 +1,10 @@
+div{
+    width: 80%;
+    height: 100vh;
+    border: 3px solid blue;
+    border-radius:10px;
+    position: absolute;
+    transform: translate(10%);
+    background-color: brown;
+    
+}
