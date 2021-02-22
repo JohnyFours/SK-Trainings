@@ -1,0 +1,31 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+.square{
+    width: 200px;
+    animation-name: slr;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+}
+@keyframes slr{
+  0%{
+      transform: rotate(0deg);
+  }
+  25%{
+      transform: rotate(90deg)
+  }
+  50%{
+    transform: rotate(180deg)
+  }
+  75%{
+    transform: rotate(270deg)
+  }
+  100%{
+      transform: rotate(360deg);
+  }
+}
