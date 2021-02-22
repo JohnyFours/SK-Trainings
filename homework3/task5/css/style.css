@@ -9,7 +9,7 @@ div{
 .square{
     width: 200px;
     animation-name: slr;
-    animation-duration:1s;
+    animation-duration:4s;
     animation-iteration-count: infinite;
 }
 @keyframes slr{
