@@ -1,0 +1,58 @@
+.container{
+    height: 1276px;
+    width: 1440px;
+    border: 1px solid gray;
+    display: grid;
+    background: #F6F7FA;
+    grid-template-columns: repeat(2, 660px);
+    grid-template-rows: repeat(5, 184px);
+    grid-template-areas:
+    "darkbox1 lightbox1"
+    "darkbox2 lightbox2"
+    "darkbox3 lightbox3"
+    "darkbox4 lightbox4"
+    "darkbox5 lightbox5";
+    gap:70px;
+    padding-left: 2%;
+    padding-top: 4%;
+} 
+.darkbox1{
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+}
+.lightbox1{
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.darkbox2{
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+}
+.lightbox2{
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.darkbox3{
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+}
+.lightbox3{
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.darkbox4{
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+}
+.lightbox4{
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.darkbox5{
+    background: linear-gradient(90.02deg, #25335A 0.02%, #141824 113.01%);
+    border-radius: 16px;
+}
+.lightbox5{
+    background: #FFFFFF;
+    border-radius: 16px;
+}
