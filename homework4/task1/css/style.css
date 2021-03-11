@@ -8,7 +8,7 @@ border-radius: 0px;
 display: flex;
 justify-content:space-around;
 }
-.head{
+.up{
 height:300px;
 width: 1110px;
 display: flex;
@@ -153,11 +153,11 @@ height: 200px;
 width: 65px;
 margin-top: 170px;
 }
-#nameaw{
+.nameaw{
 height: 200px;
 width: 200px;  
 }
-#nameawrds{
+.nameawrds{
 font-family: Fira Sans;
 font-size: 14px;
 font-style: normal;
@@ -166,7 +166,7 @@ line-height: 24px;
 letter-spacing: 1px;
 text-align: left;
 }
-#nameapp{
+.nameapp{
 height: 200px;
 width: 160px;
 font-family: Fira Sans;
